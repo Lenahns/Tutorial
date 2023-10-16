@@ -102,6 +102,10 @@ body {
 button {
     cursor: pointer;
 }
+
+.hero {
+    color: #2E2F42;
+}
     
 .hero-header {
      /* Header 1 */
@@ -133,7 +137,7 @@ button {
 }
 
 .hero-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 /* OUR BENEFITS */
 
@@ -191,7 +195,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -224,7 +228,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -244,6 +248,10 @@ button {
 
 /* PAGE FOOTER */
 
+.footer-page {
+    background-color: #2E2F42;
+}
+
 .footer-text {
     font-size: 16px;
     font-weight: 400;
@@ -251,5 +259,4 @@ button {
     /* 150% */
     letter-spacing: 0.02em;
     color: var(--CLOUD, #F4F4FD);
-
 }
