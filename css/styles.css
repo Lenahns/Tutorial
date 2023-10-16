@@ -3,6 +3,7 @@
     background-color: #FFFFFF;
 }
 
+
 .logotype {
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -104,7 +105,7 @@ button {
 }
 
 .hero {
-    color: #2E2F42;
+    background-color: #2E2F42;
 }
     
 .hero-header {
@@ -115,7 +116,6 @@ button {
     /* 107.143% */
     letter-spacing: 0.02em;
     color: var(--WHITE, #FFFFFF);
-    background-color: #2E2F42;
     text-align: center;
 }
 
@@ -250,6 +250,10 @@ button {
 
 .footer-page {
     background-color: #2E2F42;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
 }
 
 .footer-text {
